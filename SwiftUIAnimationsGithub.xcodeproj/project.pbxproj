@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DD7B2626062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */; };
+		22DD7B2A26062E6B0059EF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2926062E6B0059EF8D /* Assets.xcassets */; };
+		22DD7B2D26062E6B0059EF8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2C26062E6B0059EF8D /* Preview Assets.xcassets */; };
+		22DD7B36260630750059EF8D /* HeartLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B35260630750059EF8D /* HeartLikeView.swift */; };
+		22DD7B3B260630F00059EF8D /* FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B39260630F00059EF8D /* FabButton.swift */; };
+		22DD7B3C260630F00059EF8D /* FabIconAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B3A260630F00059EF8D /* FabIconAnimation.swift */; };
+		22DD7B422606312C0059EF8D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B412606312C0059EF8D /* ColorExtension.swift */; };
+		22DD7B45260631930059EF8D /* RectanglesFadeInAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B44260631930059EF8D /* RectanglesFadeInAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22DD7B2226062E6B0059EF8D /* SwiftUIAnimationsGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsGithubApp.swift; sourceTree = "<group>"; };
+		22DD7B2926062E6B0059EF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DD7B2C26062E6B0059EF8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22DD7B2E26062E6B0059EF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DD7B35260630750059EF8D /* HeartLikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartLikeView.swift; sourceTree = "<group>"; };
+		22DD7B39260630F00059EF8D /* FabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabButton.swift; sourceTree = "<group>"; };
+		22DD7B3A260630F00059EF8D /* FabIconAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabIconAnimation.swift; sourceTree = "<group>"; };
+		22DD7B412606312C0059EF8D /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		22DD7B44260631930059EF8D /* RectanglesFadeInAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectanglesFadeInAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DD7B1F26062E6B0059EF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DD7B1926062E6B0059EF8D = {
+			isa = PBXGroup;
+			children = (
+				22DD7B2426062E6B0059EF8D /* SwiftUIAnimationsGithub */,
+				22DD7B2326062E6B0059EF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DD7B2326062E6B0059EF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B2226062E6B0059EF8D /* SwiftUIAnimationsGithub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DD7B2426062E6B0059EF8D /* SwiftUIAnimationsGithub */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B47260631AB0059EF8D /* RectLogo */,
+				22DD7B3F260631020059EF8D /* FabIcon */,
+				22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */,
+				22DD7B3E260630F90059EF8D /* Heart */,
+				22DD7B2926062E6B0059EF8D /* Assets.xcassets */,
+				22DD7B412606312C0059EF8D /* ColorExtension.swift */,
+				22DD7B2E26062E6B0059EF8D /* Info.plist */,
+				22DD7B2B26062E6B0059EF8D /* Preview Content */,
+			);
+			path = SwiftUIAnimationsGithub;
+			sourceTree = "<group>";
+		};
+		22DD7B2B26062E6B0059EF8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B2C26062E6B0059EF8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22DD7B3E260630F90059EF8D /* Heart */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B35260630750059EF8D /* HeartLikeView.swift */,
+			);
+			path = Heart;
+			sourceTree = "<group>";
+		};
+		22DD7B3F260631020059EF8D /* FabIcon */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B39260630F00059EF8D /* FabButton.swift */,
+				22DD7B3A260630F00059EF8D /* FabIconAnimation.swift */,
+			);
+			path = FabIcon;
+			sourceTree = "<group>";
+		};
+		22DD7B47260631AB0059EF8D /* RectLogo */ = {
+			isa = PBXGroup;
+			children = (
+				22DD7B44260631930059EF8D /* RectanglesFadeInAnimation.swift */,
+			);
+			path = RectLogo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DD7B2126062E6B0059EF8D /* SwiftUIAnimationsGithub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DD7B3126062E6B0059EF8D /* Build configuration list for PBXNativeTarget "SwiftUIAnimationsGithub" */;
+			buildPhases = (
+				22DD7B1E26062E6B0059EF8D /* Sources */,
+				22DD7B1F26062E6B0059EF8D /* Frameworks */,
+				22DD7B2026062E6B0059EF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAnimationsGithub;
+			productName = SwiftUIAnimationsGithub;
+			productReference = 22DD7B2226062E6B0059EF8D /* SwiftUIAnimationsGithub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DD7B1A26062E6B0059EF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					22DD7B2126062E6B0059EF8D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 22DD7B1D26062E6B0059EF8D /* Build configuration list for PBXProject "SwiftUIAnimationsGithub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DD7B1926062E6B0059EF8D;
+			productRefGroup = 22DD7B2326062E6B0059EF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DD7B2126062E6B0059EF8D /* SwiftUIAnimationsGithub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DD7B2026062E6B0059EF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DD7B2D26062E6B0059EF8D /* Preview Assets.xcassets in Resources */,
+				22DD7B2A26062E6B0059EF8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DD7B1E26062E6B0059EF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DD7B2626062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift in Sources */,
+				22DD7B3B260630F00059EF8D /* FabButton.swift in Sources */,
+				22DD7B36260630750059EF8D /* HeartLikeView.swift in Sources */,
+				22DD7B3C260630F00059EF8D /* FabIconAnimation.swift in Sources */,
+				22DD7B422606312C0059EF8D /* ColorExtension.swift in Sources */,
+				22DD7B45260631930059EF8D /* RectanglesFadeInAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22DD7B2F26062E6B0059EF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22DD7B3026062E6B0059EF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DD7B3226062E6B0059EF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimationsGithub/Preview Content\"";
+				DEVELOPMENT_TEAM = 54958LAJ8F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAnimationsGithub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyo.app.SwiftUIAnimationsGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DD7B3326062E6B0059EF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimationsGithub/Preview Content\"";
+				DEVELOPMENT_TEAM = 54958LAJ8F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAnimationsGithub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyo.app.SwiftUIAnimationsGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DD7B1D26062E6B0059EF8D /* Build configuration list for PBXProject "SwiftUIAnimationsGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DD7B2F26062E6B0059EF8D /* Debug */,
+				22DD7B3026062E6B0059EF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DD7B3126062E6B0059EF8D /* Build configuration list for PBXNativeTarget "SwiftUIAnimationsGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DD7B3226062E6B0059EF8D /* Debug */,
+				22DD7B3326062E6B0059EF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DD7B1A26062E6B0059EF8D /* Project object */;
+}
