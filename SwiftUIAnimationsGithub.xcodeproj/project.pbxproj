@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B012FF2612EAFF003C686B /* CirclesLoader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B012FE2612EAFE003C686B /* CirclesLoader1.swift */; };
+		22B013042612EC6B003C686B /* CirclesLoader2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B013032612EC6B003C686B /* CirclesLoader2.swift */; };
 		22DD7B2626062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */; };
 		22DD7B2A26062E6B0059EF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2926062E6B0059EF8D /* Assets.xcassets */; };
 		22DD7B2D26062E6B0059EF8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2C26062E6B0059EF8D /* Preview Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22B012FE2612EAFE003C686B /* CirclesLoader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoader1.swift; sourceTree = "<group>"; };
+		22B013032612EC6B003C686B /* CirclesLoader2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoader2.swift; sourceTree = "<group>"; };
 		22DD7B2226062E6B0059EF8D /* SwiftUIAnimationsGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsGithubApp.swift; sourceTree = "<group>"; };
 		22DD7B2926062E6B0059EF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B012FD2612EAC2003C686B /* CirclesLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				22B012FE2612EAFE003C686B /* CirclesLoader1.swift */,
+				22B013032612EC6B003C686B /* CirclesLoader2.swift */,
+			);
+			path = CirclesLoaders;
+			sourceTree = "<group>";
+		};
 		22DD7B1926062E6B0059EF8D = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +73,10 @@
 		22DD7B2426062E6B0059EF8D /* SwiftUIAnimationsGithub */ = {
 			isa = PBXGroup;
 			children = (
+				22B012FD2612EAC2003C686B /* CirclesLoaders */,
+				22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */,
 				22DD7B47260631AB0059EF8D /* RectLogo */,
 				22DD7B3F260631020059EF8D /* FabIcon */,
-				22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */,
 				22DD7B3E260630F90059EF8D /* Heart */,
 				22DD7B2926062E6B0059EF8D /* Assets.xcassets */,
 				22DD7B412606312C0059EF8D /* ColorExtension.swift */,
@@ -179,6 +193,8 @@
 				22DD7B36260630750059EF8D /* HeartLikeView.swift in Sources */,
 				22DD7B3C260630F00059EF8D /* FabIconAnimation.swift in Sources */,
 				22DD7B422606312C0059EF8D /* ColorExtension.swift in Sources */,
+				22B013042612EC6B003C686B /* CirclesLoader2.swift in Sources */,
+				22B012FF2612EAFF003C686B /* CirclesLoader1.swift in Sources */,
 				22DD7B45260631930059EF8D /* RectanglesFadeInAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
