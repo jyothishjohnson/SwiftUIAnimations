@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		22B012FF2612EAFF003C686B /* CirclesLoader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B012FE2612EAFE003C686B /* CirclesLoader1.swift */; };
 		22B013042612EC6B003C686B /* CirclesLoader2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B013032612EC6B003C686B /* CirclesLoader2.swift */; };
+		22C3B555262F09D200284A90 /* TinderHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B550262F09D200284A90 /* TinderHomeView.swift */; };
+		22C3B556262F09D200284A90 /* TProfileDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B551262F09D200284A90 /* TProfileDescView.swift */; };
+		22C3B557262F09D200284A90 /* THeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B552262F09D200284A90 /* THeaderView.swift */; };
+		22C3B558262F09D200284A90 /* TBottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B553262F09D200284A90 /* TBottomTabView.swift */; };
+		22C3B559262F09D200284A90 /* DragActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B554262F09D200284A90 /* DragActionView.swift */; };
+		22C3B570262F0A0E00284A90 /* ImageCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3B56F262F0A0E00284A90 /* ImageCompressor.swift */; };
+		22C3B57D262F0A5100284A90 /* 10_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B574262F0A5100284A90 /* 10_10.jpg */; };
+		22C3B57E262F0A5100284A90 /* 9_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B575262F0A5100284A90 /* 9_9.jpg */; };
+		22C3B57F262F0A5100284A90 /* 3_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B576262F0A5100284A90 /* 3_3.jpg */; };
+		22C3B580262F0A5100284A90 /* 7_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B577262F0A5100284A90 /* 7_7.jpg */; };
+		22C3B581262F0A5100284A90 /* 5_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B578262F0A5100284A90 /* 5_5.jpg */; };
+		22C3B582262F0A5100284A90 /* 2_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B579262F0A5100284A90 /* 2_2.jpg */; };
+		22C3B583262F0A5100284A90 /* 6_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B57A262F0A5100284A90 /* 6_6.jpg */; };
+		22C3B584262F0A5100284A90 /* 4_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B57B262F0A5100284A90 /* 4_4.jpg */; };
+		22C3B585262F0A5100284A90 /* 8_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B57C262F0A5100284A90 /* 8_8.jpg */; };
+		22C3B588262F0A5900284A90 /* 1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C3B587262F0A5900284A90 /* 1_1.jpg */; };
 		22DD7B2626062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */; };
 		22DD7B2A26062E6B0059EF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2926062E6B0059EF8D /* Assets.xcassets */; };
 		22DD7B2D26062E6B0059EF8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DD7B2C26062E6B0059EF8D /* Preview Assets.xcassets */; };
@@ -22,6 +38,22 @@
 /* Begin PBXFileReference section */
 		22B012FE2612EAFE003C686B /* CirclesLoader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoader1.swift; sourceTree = "<group>"; };
 		22B013032612EC6B003C686B /* CirclesLoader2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoader2.swift; sourceTree = "<group>"; };
+		22C3B550262F09D200284A90 /* TinderHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderHomeView.swift; sourceTree = "<group>"; };
+		22C3B551262F09D200284A90 /* TProfileDescView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TProfileDescView.swift; sourceTree = "<group>"; };
+		22C3B552262F09D200284A90 /* THeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THeaderView.swift; sourceTree = "<group>"; };
+		22C3B553262F09D200284A90 /* TBottomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBottomTabView.swift; sourceTree = "<group>"; };
+		22C3B554262F09D200284A90 /* DragActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragActionView.swift; sourceTree = "<group>"; };
+		22C3B56F262F0A0E00284A90 /* ImageCompressor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCompressor.swift; sourceTree = "<group>"; };
+		22C3B574262F0A5100284A90 /* 10_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_10.jpg; sourceTree = "<group>"; };
+		22C3B575262F0A5100284A90 /* 9_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9_9.jpg; sourceTree = "<group>"; };
+		22C3B576262F0A5100284A90 /* 3_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_3.jpg; sourceTree = "<group>"; };
+		22C3B577262F0A5100284A90 /* 7_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7_7.jpg; sourceTree = "<group>"; };
+		22C3B578262F0A5100284A90 /* 5_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_5.jpg; sourceTree = "<group>"; };
+		22C3B579262F0A5100284A90 /* 2_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_2.jpg; sourceTree = "<group>"; };
+		22C3B57A262F0A5100284A90 /* 6_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6_6.jpg; sourceTree = "<group>"; };
+		22C3B57B262F0A5100284A90 /* 4_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_4.jpg; sourceTree = "<group>"; };
+		22C3B57C262F0A5100284A90 /* 8_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8_8.jpg; sourceTree = "<group>"; };
+		22C3B587262F0A5900284A90 /* 1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_1.jpg; sourceTree = "<group>"; };
 		22DD7B2226062E6B0059EF8D /* SwiftUIAnimationsGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsGithubApp.swift; sourceTree = "<group>"; };
 		22DD7B2926062E6B0059EF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +86,36 @@
 			path = CirclesLoaders;
 			sourceTree = "<group>";
 		};
+		22C3B54F262F09D200284A90 /* TinderView */ = {
+			isa = PBXGroup;
+			children = (
+				22C3B573262F0A5100284A90 /* images */,
+				22C3B550262F09D200284A90 /* TinderHomeView.swift */,
+				22C3B551262F09D200284A90 /* TProfileDescView.swift */,
+				22C3B552262F09D200284A90 /* THeaderView.swift */,
+				22C3B553262F09D200284A90 /* TBottomTabView.swift */,
+				22C3B554262F09D200284A90 /* DragActionView.swift */,
+			);
+			path = TinderView;
+			sourceTree = "<group>";
+		};
+		22C3B573262F0A5100284A90 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22C3B574262F0A5100284A90 /* 10_10.jpg */,
+				22C3B575262F0A5100284A90 /* 9_9.jpg */,
+				22C3B576262F0A5100284A90 /* 3_3.jpg */,
+				22C3B577262F0A5100284A90 /* 7_7.jpg */,
+				22C3B578262F0A5100284A90 /* 5_5.jpg */,
+				22C3B579262F0A5100284A90 /* 2_2.jpg */,
+				22C3B587262F0A5900284A90 /* 1_1.jpg */,
+				22C3B57A262F0A5100284A90 /* 6_6.jpg */,
+				22C3B57B262F0A5100284A90 /* 4_4.jpg */,
+				22C3B57C262F0A5100284A90 /* 8_8.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		22DD7B1926062E6B0059EF8D = {
 			isa = PBXGroup;
 			children = (
@@ -73,13 +135,15 @@
 		22DD7B2426062E6B0059EF8D /* SwiftUIAnimationsGithub */ = {
 			isa = PBXGroup;
 			children = (
-				22B012FD2612EAC2003C686B /* CirclesLoaders */,
 				22DD7B2526062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift */,
+				22C3B54F262F09D200284A90 /* TinderView */,
+				22B012FD2612EAC2003C686B /* CirclesLoaders */,
 				22DD7B47260631AB0059EF8D /* RectLogo */,
 				22DD7B3F260631020059EF8D /* FabIcon */,
 				22DD7B3E260630F90059EF8D /* Heart */,
 				22DD7B2926062E6B0059EF8D /* Assets.xcassets */,
 				22DD7B412606312C0059EF8D /* ColorExtension.swift */,
+				22C3B56F262F0A0E00284A90 /* ImageCompressor.swift */,
 				22DD7B2E26062E6B0059EF8D /* Info.plist */,
 				22DD7B2B26062E6B0059EF8D /* Preview Content */,
 			);
@@ -177,7 +241,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DD7B2D26062E6B0059EF8D /* Preview Assets.xcassets in Resources */,
+				22C3B584262F0A5100284A90 /* 4_4.jpg in Resources */,
+				22C3B582262F0A5100284A90 /* 2_2.jpg in Resources */,
+				22C3B588262F0A5900284A90 /* 1_1.jpg in Resources */,
+				22C3B57F262F0A5100284A90 /* 3_3.jpg in Resources */,
+				22C3B583262F0A5100284A90 /* 6_6.jpg in Resources */,
+				22C3B57D262F0A5100284A90 /* 10_10.jpg in Resources */,
+				22C3B581262F0A5100284A90 /* 5_5.jpg in Resources */,
+				22C3B585262F0A5100284A90 /* 8_8.jpg in Resources */,
+				22C3B580262F0A5100284A90 /* 7_7.jpg in Resources */,
 				22DD7B2A26062E6B0059EF8D /* Assets.xcassets in Resources */,
+				22C3B57E262F0A5100284A90 /* 9_9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,13 +262,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C3B556262F09D200284A90 /* TProfileDescView.swift in Sources */,
 				22DD7B2626062E6B0059EF8D /* SwiftUIAnimationsGithubApp.swift in Sources */,
+				22C3B558262F09D200284A90 /* TBottomTabView.swift in Sources */,
 				22DD7B3B260630F00059EF8D /* FabButton.swift in Sources */,
+				22C3B559262F09D200284A90 /* DragActionView.swift in Sources */,
 				22DD7B36260630750059EF8D /* HeartLikeView.swift in Sources */,
 				22DD7B3C260630F00059EF8D /* FabIconAnimation.swift in Sources */,
 				22DD7B422606312C0059EF8D /* ColorExtension.swift in Sources */,
 				22B013042612EC6B003C686B /* CirclesLoader2.swift in Sources */,
 				22B012FF2612EAFF003C686B /* CirclesLoader1.swift in Sources */,
+				22C3B555262F09D200284A90 /* TinderHomeView.swift in Sources */,
+				22C3B557262F09D200284A90 /* THeaderView.swift in Sources */,
+				22C3B570262F0A0E00284A90 /* ImageCompressor.swift in Sources */,
 				22DD7B45260631930059EF8D /* RectanglesFadeInAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

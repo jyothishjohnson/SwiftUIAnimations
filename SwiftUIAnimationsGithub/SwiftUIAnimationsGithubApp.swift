@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAnimationsGithubApp: App {
     var body: some Scene {
         WindowGroup {
-            HeartLikeView()
+            TinderHomeView()
         }
     }
 }

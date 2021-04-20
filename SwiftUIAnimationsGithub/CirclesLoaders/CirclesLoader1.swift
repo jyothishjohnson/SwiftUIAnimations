@@ -169,6 +169,7 @@ struct CirclesLoading: View {
                 }
 
                 timerCount += 1
+                circleColor = Color.blue.opacity(.random(in: 0.2...1))
             }.fire()
         }
         
