@@ -55,3 +55,5 @@ struct TProfile: Identifiable {
         TProfile(name: "Isa", age: 28, verified: true, occupation: "Athlete", location: "California", distance: 2, imageName: "10", image: ImageCompressor.compressedImage(imageName: "10", frame: CGSize(width: 372, height: 600))!)
     ]
 }
+
+//setup Github
